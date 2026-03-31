@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 0 * * *'  # 每天UTC时间 00:00 执行一次
+    - cron: '10 14 * * *'  # 每天UTC时间 00:00 执行一次
 
 jobs:
   sign_in_job:
